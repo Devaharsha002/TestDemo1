@@ -1,0 +1,78 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+
+# Solution packages (managed solutions)
+Solutions/Managed/*.zip
+*.managed.zip
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.sln.ide
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Package files
+*.nupkg
+*.snupkg
+packages/
+
+# Node modules (if using npm later)
+node_modules/
+npm-debug.log*
+
+# Environment specific files
+*.env
+appsettings.local.json
+
+# Power Platform specific
+*.msapp
+CrmPackage/
+PkgFolder/
+*.spkl
+*.CrmConnection
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
